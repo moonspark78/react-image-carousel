@@ -6,7 +6,7 @@ import slides from "./data/CarouselData.json";
 function App() {
   return (
     <div className="App">
-      <Carousel data={slides}/>
+      <Carousel data={slides.slides}/>
     </div>
   );
 }
